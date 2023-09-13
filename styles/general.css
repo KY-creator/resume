@@ -93,3 +93,12 @@ p{
 .activity-object{
     padding-bottom: 40px;
 }
+.project-weight{
+    font-weight: normal;
+    font-style: italic;
+}
+.project-description{
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
