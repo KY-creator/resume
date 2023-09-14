@@ -23,6 +23,7 @@ p{
     font-size: 50px;
     font-weight: bold;
     padding-bottom: 30px;
+    line-height: 60px;
 }
 .personal-statement{
     padding-bottom: 40px;
@@ -128,4 +129,33 @@ p{
 }
 .section{
     padding-bottom: 30px;
+}
+.social-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 50px;
+    column-gap: 10px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+    background: rgb(129,52,175);
+    color: white;
+}
+.fa-twitter {
+    background: rgb(85, 172, 238);
+    color: white;
+}
+.fa-linkedin {
+    background: rgb(0, 123, 181);
+    color: white;
 }
