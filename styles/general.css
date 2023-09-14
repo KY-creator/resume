@@ -1,0 +1,131 @@
+
+body{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #02005B;
+    color: rgba(255,255,255,0.95);
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: "微軟正黑體",sans-serif;
+}
+p{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.cv-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.personal-statement{
+    padding-bottom: 40px;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 182, 48);
+    padding-bottom: 18px;
+}
+.activity-name{
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.2s;
+    color: white;
+    transition: 0.2s;
+}
+.activity-name:hover{
+    color: #02005B;
+    background-color: white;
+}
+.location{
+    font-size: 15px;
+    font-style: italic;
+}
+.time{
+    font-size: 12px;
+    font-weight:lighter;
+    padding-bottom: 10px;
+}
+.activity-description{
+    font-size: 15px;
+    padding-bottom: 30px;
+    font-weight: lighter;
+}
+.activity-brief{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+.event-list{
+    display: grid;
+    grid-template-rows: fit-content fit-content fit-content fit-content;
+    row-gap: 5px;
+}
+.event{
+    border: solid;
+    padding-bottom: 0px;
+    height:fit-content;
+    padding: 10px;
+    display: flex;
+    transition: 0.2s;
+}
+.event:hover{
+    background-color: white;
+    color:#02005B;
+}
+.event-date{
+    width: fit-content;
+    border-right: solid;
+    padding-right: 20px;
+}
+.event-name{
+    flex-grow: 1;
+    padding-left: 10px;
+}
+.month{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.year{
+    font-size: 50px;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+}
+.project-title{
+    font-weight: bold;
+}
+.activity-object{
+    padding-bottom: 40px;
+}
+.project-weight{
+    font-weight: normal;
+    font-style: italic;
+}
+.project-description{
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.image-container img{
+    height: 100%;
+    width: 100%;
+}
+.headshot{
+    border-radius:10px;
+    margin-bottom: 20px;
+}
+.section{
+    padding-bottom: 30px;
+}
