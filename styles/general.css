@@ -3,8 +3,8 @@ body{
     padding: 50px;
     display: flex;
     justify-content: center;
-    background-color: #02005B;
-    color: rgba(255,255,255,0.95);
+    background-color: #053F5C;
+    color: #9FE7F5;
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 1px;
@@ -24,6 +24,7 @@ p{
     font-weight: bold;
     padding-bottom: 30px;
     line-height: 60px;
+    color: #F7AD19;
 }
 .personal-statement{
     padding-bottom: 40px;
@@ -31,19 +32,19 @@ p{
 .section-title{
     font-size: 30px;
     font-weight: bold;
-    color: rgb(255, 182, 48);
+    color: #F27F0C;
     padding-bottom: 18px;
 }
 .activity-name{
     font-size: 15px;
     font-weight: bold;
     transition: 0.2s;
-    color: white;
+    color: #9FE7F5;
     transition: 0.2s;
 }
 .activity-name:hover{
     color: #02005B;
-    background-color: white;
+    background-color: #9FE7F5;
 }
 .location{
     font-size: 15px;
@@ -78,8 +79,8 @@ p{
     transition: 0.2s;
 }
 .event:hover{
-    background-color: white;
-    color:#02005B;
+    background-color: #9FE7F5;
+    color:#053F5C;;
 }
 .event-date{
     width: fit-content;
@@ -117,10 +118,9 @@ p{
 }
 .link{
     text-decoration: none;
-    color: white;
+    color: #9FE7F5;
 }
 .image-container img{
-    height: 100%;
     width: 100%;
 }
 .headshot{
@@ -131,10 +131,13 @@ p{
     padding-bottom: 30px;
 }
 .social-grid{
+    justify-content:baseline;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-bottom: 50px;
-    column-gap: 10px;
+    padding-bottom: 20px;
+    column-gap: 20px; 
+    row-gap: 20px;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, 70px);
 }
 .fa {
     padding: 20px;
@@ -147,15 +150,10 @@ p{
 .fa:hover {
     opacity: 0.7;
 }
-.fa-instagram {
-    background: rgb(129,52,175);
-    color: white;
+.fa-instagram, .fa-twitter, .fa-linkedin{
+    background: #F27F0C;
+    color: #053F5C;
 }
-.fa-twitter {
-    background: rgb(85, 172, 238);
-    color: white;
-}
-.fa-linkedin {
-    background: rgb(0, 123, 181);
-    color: white;
+.alignment{
+    display: flex;
 }
