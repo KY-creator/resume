@@ -36,11 +36,12 @@ p{
     padding-bottom: 18px;
 }
 .activity-name{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     transition: 0.2s;
     color: #9FE7F5;
     transition: 0.2s;
+    line-height: 40px;
 }
 .activity-name:hover{
     color: #02005B;
@@ -57,7 +58,7 @@ p{
 }
 .activity-description{
     font-size: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     font-weight: lighter;
 }
 .activity-brief{
@@ -112,9 +113,10 @@ p{
     font-style: italic;
 }
 .project-description{
-    font-size: 12px;
+    font-size: 18px;
     line-height: 18px;
     padding-bottom: 10px;
+    font-weight: lighter;
 }
 .link{
     text-decoration: none;
@@ -172,7 +174,48 @@ p{
 .art-images{
     width: 100%;
     display: block;
+    transition: 0.5s;
+    height: 100%;
 }
 .art{
     background-color: white;
+}
+.research-section{
+    font-weight: bold;
+}
+.art-images:hover{
+    filter: brightness(50%);
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    opacity: 0;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: bold;
+}
+.container:hover .bottom-left{
+    opacity: 100;
+}
+.sub-pages{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 17px;
+    padding-top: 10px;
+}
+.sub-pages:hover{
+    background-color: #9FE7F5;
+    color:#053F5C;;
+}
+.top{
+    padding-bottom: 30px;
 }
